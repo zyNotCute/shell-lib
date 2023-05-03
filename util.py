@@ -12,7 +12,6 @@ def PIPE(cmd):
 
 def DOWNLOAD(url, filename):
   cmd = f"curl -o download/{ filename } { url }"
-  print(cmd)
   RUN(cmd)
 
 def NORMALIZE(string):

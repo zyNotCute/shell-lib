@@ -1,0 +1,5 @@
+from conf import *
+BOOK_INDEX_KEYWORD = 'md5='
+BOOK_MIRROR_KEYWORD = 'this mirror'
+BOOK_DOWNLOAD_KEYWORD = 'GET'
+LINE_MAX_LENGTH = 90
